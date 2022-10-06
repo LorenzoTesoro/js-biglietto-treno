@@ -28,7 +28,7 @@ const seniorPrice = ((price / "100") * seniorDiscount)
 if(userAge < "18"){
     console.log(((price - underagePrice).toFixed(2)) + " €");
 } else if (userAge >= "65"){
-    console.log(((price - seniorPrice)).toFixed(2)+ " €");
+    console.log(((price - seniorPrice)).toFixed(2) + " €");
 } else{
     console.log(price + " €");
 }
