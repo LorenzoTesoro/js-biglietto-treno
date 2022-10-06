@@ -18,9 +18,9 @@ let price = Number(kilometers * 0.21);
 //if statements
 
 if(userAge < 18){
-    price = Number(price - (price / "100") * 20).toFixed(2);
+    price =(price - (price / 100) * 20).toFixed(2);
 } else if (userAge >= 65){
-    price = Number(price - (price / "100") * 40).toFixed(2);
+    price =(price - (price / 100) * 40).toFixed(2);
 }
 
 document.getElementById('final_price').innerHTML = price + " €";
